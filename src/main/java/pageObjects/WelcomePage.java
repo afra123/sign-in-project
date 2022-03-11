@@ -8,7 +8,7 @@ public class WelcomePage {
 	public WebDriver driver;
 
 	By openYourBookButton = By.xpath("//button[contains(text(),'Open your book')]");
-	By welcomePageSideMenu = By.xpath("//*[@id=\"browse\"]/nav/header/ul[1]/li/a/span");
+	By welcomePageSideMenu = By.xpath("//a[@data-sidemenu-toggle]");
 	By signOutLink = By.linkText("Sign out");
 
 	public WelcomePage(WebDriver driver) {
