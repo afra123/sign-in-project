@@ -8,7 +8,7 @@ public class SignInPage {
 	public WebDriver driver;
 
 	By emailLink = By.linkText("or use email »");
-	By facebookLink = By.xpath("/html/body/div[6]/div/div/div[1]/a");
+	By facebookLink = By.linkText("Connect with Facebook");
 	By facebookEmailField = By.id("email");
 	By facebookPasswordField = By.id("pass");
 	By facebookLoginButton = By.id("loginbutton");
