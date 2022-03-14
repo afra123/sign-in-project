@@ -1,5 +1,4 @@
-# sign-in-project
- Sign In flow project Tech assignment
+# Pastbook Automation project
 Implemented using Selenium and Java
 Following tests are automated:
 1.Sign in with email
